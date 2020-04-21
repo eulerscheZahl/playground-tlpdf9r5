@@ -6,4 +6,4 @@ This Python template lets you get started quickly with a simple one-page playgro
 print('Hello World!')
 ```
 
-@[Python]({"stubs": ["code/download.py"], "command": "python code/download.py"})
+@[Python]({"stubs": ["code/download.py"], "command": "python3 code/download.py"})
