@@ -6,4 +6,4 @@ plan:
 projects:
     python-project:
         root: /project
-        runner: python:latest
+        runner: broadinstitute/python-requests:latest
