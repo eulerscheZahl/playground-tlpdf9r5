@@ -6,5 +6,4 @@ plan:
 projects:
     python-project:
         root: /project
-        buildCommand: ./install.sh
-        runner: python: latest
+        runner: python:latest
