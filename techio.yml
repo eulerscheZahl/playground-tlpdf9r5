@@ -1,7 +1,7 @@
 title: Contest tools and workflow
 plan:
 - title: Introduction
-  statement: introduction.md
+  statement: Introduction.md
 - title: Understanding the CodinGame API
   statement: API_introduction.md
 - title: Scripting the API with Python
@@ -9,7 +9,7 @@ plan:
 - title: Setting up the IDE
   statement: IDE.md
 - title: Debugging
-  statement: debug.md
+  statement: Debug.md
   
 projects:
     python-project:
