@@ -1,8 +1,16 @@
-title: Simple Python Template
+title: Contest tools and workflow
 plan:
-- title: Python Snippet
-  statement: statement.md
-
+- title: Introduction
+  statement: introduction.md
+- title: Understanding the CodinGame API
+  statement: API_introduction.md
+- title: Scripting the API with Python
+  statement: API_python.md
+- title: Setting up the IDE
+  statement: IDE.md
+- title: Debugging
+  statement: debug.md
+  
 projects:
     python-project:
         root: /project
