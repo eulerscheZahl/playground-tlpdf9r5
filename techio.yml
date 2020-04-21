@@ -3,7 +3,7 @@ plan:
 - title: Introduction
   statement: Introduction.md
 - title: Understanding the CodinGame API
-  statement: API_introduction.md
+  statement: API_Introduction.md
 - title: Scripting the API with Python
   statement: API_python.md
 - title: Setting up the IDE
