@@ -2,7 +2,7 @@ import json, os
 
 # read the replay from file
 with open('replay.json', 'r') as f:
-	replay = json.loads(f.read())['success']
+	replay = json.loads(f.read())
 
 stderr = []
 for frame in replay['success']['frames']:
