@@ -8,3 +8,5 @@ r = requests.post(
 )
 replay = r.json()
 print(replay)
+with open(f'{game_id}.json', 'w+') as f:
+	f.write(json.dumps(replay))

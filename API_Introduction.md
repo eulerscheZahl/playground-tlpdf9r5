@@ -1,4 +1,4 @@
-# The CodinGame API
+# Understanding the CodinGame API
 
 First of all, let's find out how to get the replays for offline analysis.
 I will use the Chromium webbrowser, but it's really similar in other browsers.
