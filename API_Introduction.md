@@ -18,6 +18,7 @@ This will contain some additional headers such as the user agent string of your 
 
 Here is the request in wget (as curl isn't easily available on tech.io) without unnecessary headers.
 ```bash runnable
-wget --header='Content-Type:application/json' --post-data='["453253378",null]' 'https://www.codingame.com/services/gameResult/findInformationById'
-cat findInformationById
+wget --header='Content-Type:application/json' --post-data='["453253378",null]' 'https://www.codingame.com/services/gameResultRemoteService/findByGameId'
+cat findByGameId
 ```
+Note: there are 2 different APIs to get replays: `findByGameId` and `findInformationById`. Use `findByGameId` to only download the replay itself without additional Javascript and save bandwidth that way.
