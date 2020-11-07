@@ -29,3 +29,7 @@ with requests.Session() as s:
 	replay = r.json()
 	# TODO save your replay
 ```
+
+**Note**:
+You need a "real" CodinGame account to authenticate like this. If you use an OAuth like google login, you have to set a password on your CodinGame profile first.
+This can be done in your [settings](https://www.codingame.com/settings).
