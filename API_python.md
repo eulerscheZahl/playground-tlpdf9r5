@@ -21,7 +21,7 @@ game_id = 453253378
 
 # the session object saves cookies
 with requests.Session() as s:
-    session.cookies.set('rememberMe', '01234567-0123-0123-0123-0123456789ab', domain='codingame.com') # change the cookie value, see https://github.com/s-vivien/CGBenchmark#how-to-grab-your-accounts-rememberme
+    s.cookies.set('rememberMe', '01234567-0123-0123-0123-0123456789ab', domain='codingame.com') # change the cookie value, see https://github.com/s-vivien/CGBenchmark#how-to-grab-your-accounts-rememberme
     # the same request as above, but with a session object
     r = s.post('https://www.codingame.com/services/gameResultRemoteService/findByGameId', json = [str(game_id), userID])
     replay = r.json()
